@@ -84,9 +84,13 @@ public class Lists {
         listaNume.add("Marian");
         listaNume.add("Valentina");
         System.out.println(listaNume);
-
+        LinkedList<String> listaNume2 = new LinkedList<>();
+        listaNume2 = listaNume;
+        System.out.println(listaNume2);
         Collections.sort(listaNume);
-        System.out.println(listaNume);
+        //System.out.println(listaNume);
+        Collections.reverse(listaNume2);
+        System.out.println(listaNume2);
 
 
 
